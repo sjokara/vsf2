@@ -40,7 +40,7 @@ module.exports = {
       location: '@vue-storefront/algolia-api/server',
       configuration: {
         api: {
-          url: 'kurcina'
+          url: ''
         }
       },
     },
