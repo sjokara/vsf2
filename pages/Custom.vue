@@ -18,13 +18,16 @@ export default {
   setup() {
     const context = useContext();
 
-    const { result, loading, error, searchProducts, searchCategories } = useAlgolia();
+    const { result, loading, error, searchProducts, searchCategories, getProductsByCategory, getRelatedProducts, searchMultiple } = useAlgolia();
 
     onMounted(async () => {
       console.log(context)
 
-      await searchProducts("short");
-      await searchCategories("short");
+      // await searchProducts("short");
+      // await searchCategories("short");
+      await searchMultiple('short');
+      await getProductsByCategory({categoryId: 11, hitsPerPage: 5})
+      await getRelatedProducts({ objectID: 2040 })
     })
 
     return {
