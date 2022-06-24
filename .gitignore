@@ -95,6 +95,3 @@ sw.*
 version
 .env.*
 !.env.example
-
-
-yarn.lock
