@@ -2848,9 +2848,10 @@
 
 "@vue-storefront/algolia-api@git+https://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:x-oauth-basic@github.com//sjokic98/algolia.git":
   version "0.0.1"
-  resolved "git+https://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:x-oauth-basic@github.com//sjokic98/algolia.git#671e0b4eb015145ed2af606d8bed1c70cc120d1b"
+  resolved "git+https://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:x-oauth-basic@github.com//sjokic98/algolia.git#fdeab1788e282c0aee4f64d3762be85d87df4eee"
   dependencies:
-    "@vue-storefront/core" "~2.5.4"
+    "@nuxtjs/composition-api" "^0.31.0"
+    "@vue-storefront/core" "~2.5.13"
     algoliasearch "^4.13.1"
     axios "^0.27.2"
     esbuild "^0.14.44"
@@ -2864,7 +2865,7 @@
   dependencies:
     "@vue-storefront/core" "~2.5.13"
 
-"@vue-storefront/core@^2.4.3", "@vue-storefront/core@~2.5.13", "@vue-storefront/core@~2.5.4":
+"@vue-storefront/core@^2.4.3", "@vue-storefront/core@~2.5.13":
   version "2.5.13"
   resolved "https://registry.yarnpkg.com/@vue-storefront/core/-/core-2.5.13.tgz#ad7cf7c8f7a51b521202c5cb81b0511c7f1ffab8"
   integrity sha512-o8mS+nha9FYgYaQdFKYbx0WEx2qtYErjeqGgtdCC1F435SliVctuxhBg5CxGkPPfk6tGO7BBAaOWMUr5Qp5ZFg==
@@ -12890,7 +12891,7 @@ rc9@^1.2.0:
     destr "^1.1.1"
     flat "^5.0.0"
 
-rc@^1.2.7, rc@^1.2.8:
+rc@1.2.8, rc@^1.2.7, rc@^1.2.8:
   version "1.2.8"
   resolved "https://registry.yarnpkg.com/rc/-/rc-1.2.8.tgz#cd924bf5200a075b83c188cd6b9e211b7fc0d3ed"
   integrity sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==
@@ -13110,11 +13111,11 @@ regexpu-core@^5.0.1:
     unicode-match-property-value-ecmascript "^2.0.0"
 
 registry-auth-token@^4.0.0:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/registry-auth-token/-/registry-auth-token-4.2.1.tgz#6d7b4006441918972ccd5fedcd41dc322c79b250"
-  integrity sha512-6gkSb4U6aWJB4SF2ZvLb76yCBjcvufXBqvvEx1HbmKPkutswjW1xNVRY0+daljIYRbogN7O0etYSlbiaEQyMyw==
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/registry-auth-token/-/registry-auth-token-4.2.2.tgz#f02d49c3668884612ca031419491a13539e21fac"
+  integrity sha512-PC5ZysNb42zpFME6D/XlIgtNGdTl8bBOCw90xQLVMpzuuubJKYDWFAEuUNc+Cn8Z8724tg2SDhDRrkVEsqfDMg==
   dependencies:
-    rc "^1.2.8"
+    rc "1.2.8"
 
 registry-url@^5.0.0:
   version "5.1.0"
